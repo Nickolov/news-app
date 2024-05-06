@@ -11,6 +11,10 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.18",
+    "@nuxt/ui": "^2.15.2",
+    "@tiptap/pm": "^2.3.1",
+    "@tiptap/starter-kit": "^2.3.1",
+    "@tiptap/vue-3": "^2.3.1",
     "@vueuse/motion": "^2.1.0",
     "nuxt": "^3.11.2",
     "postgres": "^3.4.4",

@@ -3,10 +3,7 @@ import path from 'node:path';
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [
-    '@vueuse/motion/nuxt',
-    '@nuxt/eslint'
-  ],
+  modules: ["@vueuse/motion/nuxt", "@nuxt/eslint", "@nuxt/ui"],
   srcDir: "src/",
   postcss: {
     plugins: {
@@ -18,5 +15,9 @@ export default defineNuxtConfig({
   alias: {
     'server': path.resolve(__dirname, './src/server/')
   },
-  eslint: {}
+  eslint: {},
+
+  colorMode: {
+    preference: 'light'
+  }
 })
