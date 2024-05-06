@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 
-const editor = ref<any>("");
+const editor = ref();
 const title = ref("");
 const summary = ref("");
 const toast = useToast();

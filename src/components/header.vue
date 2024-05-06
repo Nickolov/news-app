@@ -2,7 +2,7 @@
   <header>
     <nav class="nav">
       <ul>
-        <li><NuxtLink class="nav-default" activeClass="nav-active" to="/">Latest Trends</NuxtLink></li>
+        <li><NuxtLink class="nav-default" active-class="nav-active" to="/">Latest Trends</NuxtLink></li>
         <li><button class="nav-default" @click="showMenu" >Explore Section</button></li>
         <li>
           <div :style="{ display: (isActive ? 'block' : 'none')}" class="absolute">

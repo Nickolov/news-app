@@ -3,7 +3,7 @@ import path from 'node:path';
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@vueuse/motion/nuxt", "@nuxt/eslint", "@nuxt/ui"],
+  modules: ["@vueuse/motion/nuxt", "@nuxt/ui", "@nuxt/eslint"],
   srcDir: "src/",
   postcss: {
     plugins: {
