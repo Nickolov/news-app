@@ -2,6 +2,8 @@
 
 const { data } = await useFetch('/api/date')
 
+
+
 const initial = ref({
   y: 100,
   opacity: 0,

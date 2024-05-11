@@ -1,5 +1,11 @@
+<script setup>
+
+const res = await useFetch('/api/storage');
+
+</script>
+
 <template>
   <div>
-    magic demo
+    s3 result {{res}}
   </div>
 </template>
